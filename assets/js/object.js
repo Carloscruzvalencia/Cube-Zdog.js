@@ -1,24 +1,8 @@
-# objetivo
-- Recrear y animar la siguiente imagen en Zdog.js
-![inspiracion](pr/cubo-de-rubik.png))
-
-# Resultado final
-![Resultado final del proyecto](pr/resu.png)
-
-[Miralo en la web](https://carloscruzvalencia.github.io/Rubik-Cube-Zdog.js/)
-<details open>
-<summary>Documentacion del proyecto</summary>
-
-## Generamos un grupo donde almacenar todos los cubos
-```JavaScript 
 let rubikCubes = new Zdog.Anchor({
     addTo: rubik
 
 });
-```
 
-## Mediante un bucle se generan los cubos nesesarios
-```JavaScript 
 ps = 10
 for (i = 0; i != 4; i++) {
     let box = new Zdog.Box({
@@ -49,9 +33,6 @@ for (i = 0; i != 4; i++) {
     }
     ps = 10
 }
-```
-## Con la funcion ```.copyGraph``` generamos los bloques que faltan
-```JavaScript
 for (i =0 ;i != 4;i++){
     rubikCubes.copyGraph({
         translate: {
@@ -60,10 +41,9 @@ for (i =0 ;i != 4;i++){
         },
     })
 }
-```
-# Resultado final
-![Resultado final del proyecto](pr/resu.png)
 
-visita la pagina web
-[Pagina web](https://carloscruzvalencia.github.io/Rubik-Cube-Zdog.js/)
-</details>
+function animate() {
+    rubik.updateRenderGraph();
+    requestAnimationFrame(animate);
+}
+animate();
