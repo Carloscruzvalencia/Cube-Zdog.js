@@ -5,7 +5,7 @@
 # Resultado final
 ![Resultado final del proyecto](pr/resu.png)
 
-[Miralo en la web](https://carloscruzvalencia.github.io/Rubik-Cube-Zdog.js/)
+[Miralo en la web](carloscruzvalencia.github.io/Cube-Zdog.js/)
 <details open>
 <summary>Documentacion del proyecto</summary>
 
@@ -65,5 +65,5 @@ for (i =0 ;i != 4;i++){
 ![Resultado final del proyecto](pr/resu.png)
 
 visita la pagina web
-[Pagina web](https://carloscruzvalencia.github.io/Rubik-Cube-Zdog.js/)
+[Pagina web](carloscruzvalencia.github.io/Cube-Zdog.js/)
 </details>
