@@ -5,7 +5,7 @@
 # Resultado final
 ![Resultado final del proyecto](pr/resu.png)
 
-[Miralo en la web](carloscruzvalencia.github.io/Cube-Zdog.js/)
+[Pagina web](carloscruzvalencia.github.io/Cube-Zdog.js/)
 <details open>
 <summary>Documentacion del proyecto</summary>
 
